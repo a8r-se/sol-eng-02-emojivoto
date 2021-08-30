@@ -4,7 +4,7 @@ metadata:
   name: emojivoto-mapping
   namespace: emojivoto-dev
 spec:
-  host: emojivoto-dev.linkerd.amb-labs.io
+  host: emojivoto-dev.se01.mturner.k736.net 
   precedence: 1
   prefix: /
-  service: web-svc.emojivoto-dev.svc.cluster.local:80
+  service: web-svc.emojivoto-dev:80
