@@ -1,3 +1,4 @@
+---
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -8,6 +9,7 @@ metadata:
     app.kubernetes.io/part-of: emojivoto
     app.kubernetes.io/version: v11
 spec:
+  revisionHistoryLimit: 1
   replicas: 1
   selector:
     matchLabels:
@@ -18,9 +20,6 @@ spec:
       labels:
         app: vote-bot
         version: v11
-      annotations:
-        linkerd.io/inject: "enabled"
-        config.linkerd.io/skip-outbound-ports: "8081,8022,6000-7999"    
     spec:
       containers:
       - command:
@@ -33,3 +32,4 @@ spec:
         resources:
           requests:
             cpu: 10m
+---
