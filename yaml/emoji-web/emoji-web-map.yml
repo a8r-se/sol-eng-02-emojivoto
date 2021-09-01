@@ -8,5 +8,5 @@ spec:
   hostname: emojivoto.se02.mturner.k736.net
   precedence: 1
   prefix: /
-  service: web-svc.emojivoto:80
-  ---
+  service: web-svc.emojivoto:80 
+---
