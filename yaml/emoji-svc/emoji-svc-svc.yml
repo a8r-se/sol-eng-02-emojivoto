@@ -14,7 +14,7 @@ metadata:
     ### Goes to Ambassador Labs docs: Log levels and debugging
     a8r.io/logs: https://www.getambassador.io/docs/edge-stack/latest/topics/running/running/#log-levels-and-debugging
     ### Goes to the Ambassdor Labs docs homepage
-    a8r.io/documentation: https://www.getambassador.io/docs/latest/
+    a8r.io/documentation: https://se02.mturner.k736.net/docs/
     ### Emojivoto repository
     a8r.io/repository: https://github.com/a8r-se/sol-eng-02-emojivoto  
     ### Ambassador Labs Support Portal Login Page
