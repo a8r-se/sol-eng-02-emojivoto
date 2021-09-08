@@ -29,7 +29,7 @@ metadata:
     a8r.io/dependencies: voting-svc.emojivoto, emoji-svc.emojivoto
     ### ArgoRollOuts Annotations
     a8r.io/rollouts.scm.branch: main
-    a8r.io/rollouts.scm.path: yaml/emojivoto/emoji-web  
+    a8r.io/rollouts.scm.path: yaml/emoji-web  
     a8r.io/rollouts.image-repo.type: dockerhub
     a8r.io/rollouts.image-repo.name: caseykurosawa/emojivoto-web
     a8r.io/rollouts.deployment: web
