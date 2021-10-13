@@ -7,3 +7,7 @@ k8s_config:
   cluster_info:
     cluster_id: 303c3e97-5820-5359-9f00-1475885c5b13
     cluster_name: sol-eng-02
+- manifest_path: /yaml/emoji-web
+  cluster_info:
+    cluster_id: 5c22809b-8280-581b-aeb7-f2c55f7ca708
+    cluster_name: demo-prod-cbbec76f-c707-40e6-8699-7a6586ce8b07
